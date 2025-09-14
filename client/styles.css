@@ -79,7 +79,7 @@ body {
 }
 
 .ai .profile {
-  background: #19c37d; 
+  background: #3256c7; 
 }
 
 .profile img {
@@ -139,7 +139,7 @@ textarea {
 }
 
 textarea:focus {
-  border-color: #19c37d;
+  border-color: #3256c7;
   background: #242424;
 }
 
