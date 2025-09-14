@@ -29,7 +29,7 @@ app.post('/', async (req, res) => {
         { role: 'system', content: 'You are a helpful assistant.' },
         { role: 'user', content: prompt }
       ],
-      max_tokens: 200,
+      max_tokens: 300,
     });
 
     const botResponse = completion.choices[0].message.content;
