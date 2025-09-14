@@ -109,7 +109,7 @@ const handleSubmit = async (e) => {
 form.addEventListener('submit', handleSubmit);
 form.addEventListener('keydown', (e) => {
   if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey) {
-    e.preventDefault(); // stop newline
+    e.preventDefault();
     handleSubmit(e);
   }
 });
